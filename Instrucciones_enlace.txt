@@ -1,0 +1,35 @@
+#Instrucciones para poner las tareas en el repositorio de GitHub
+PASOS PARA SUBIR UNA TAREA A GITHUB
+
+1. Guardar el archivo (notebook o script)
+   - Presionar Ctrl + S
+
+2. Verificar los cambios
+   - Ejecutar en terminal:
+     git status
+
+3. Agregar archivos al commit
+   - Opción general:
+     git add .
+   - Opción específica (recomendada):
+     git add tareas/01-python/tarea_01_python_numpy.ipynb
+
+4. Crear el commit (mensaje claro)
+   - Ejemplo:
+     git commit -m "instrucciones para poner los archivos en github"
+
+5. Subir los cambios a GitHub
+   - Ejecutar:
+     git push
+
+REGLAS IMPORTANTES:
+- No subir la carpeta venv
+- Revisar siempre con git status antes de hacer commit
+- Usar mensajes claros en los commits
+- Hacer un commit por cada tarea
+
+FLUJO RESUMIDO:
+git status
+git add .
+git commit -m "descripcion clara del cambio"
+git push
