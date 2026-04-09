@@ -1,17 +1,35 @@
-Proyecto: Automatización de procesos - Escrituración
+#Instrucciones para poner las tareas en el repositorio de GitHub
+PASOS PARA SUBIR UNA TAREA A GITHUB
 
-Objetivo:
-Validar el uso de Git como herramienta de control de versiones para procesos automatizados.
+1. Guardar el archivo (notebook o script)
+   - Presionar Ctrl + S
 
-Proceso en prueba:
-1. Clonar repositorio desde GitHub
-2. Editar archivo local
-3. Registrar cambios (commit)
-4. Subir cambios al repositorio (push)
+2. Verificar los cambios
+   - Ejecutar en terminal:
+     git status
 
-Fecha: 2026-04-08
-Responsable: Esteban
+3. Agregar archivos al commit
+   - Opción general:
+     git add .
+   - Opción específica (recomendada):
+     git add tareas/01-python/tarea_01_python_numpy.ipynb
 
-Notas:
-- Este archivo valida el flujo básico de trabajo con Git
-- Próximo paso: implementar scripts de automatización (Python)
+4. Crear el commit (mensaje claro)
+   - Ejemplo:
+     git commit -m "resuelvo tarea 01 python numpy"
+
+5. Subir los cambios a GitHub
+   - Ejecutar:
+     git push
+
+REGLAS IMPORTANTES:
+- No subir la carpeta venv
+- Revisar siempre con git status antes de hacer commit
+- Usar mensajes claros en los commits
+- Hacer un commit por cada tarea
+
+FLUJO RESUMIDO:
+git status
+git add .
+git commit -m "descripcion clara del cambio"
+git push
