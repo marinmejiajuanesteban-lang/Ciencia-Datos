@@ -1,0 +1,17 @@
+Proyecto: Automatización de procesos - Escrituración
+
+Objetivo:
+Validar el uso de Git como herramienta de control de versiones para procesos automatizados.
+
+Proceso en prueba:
+1. Clonar repositorio desde GitHub
+2. Editar archivo local
+3. Registrar cambios (commit)
+4. Subir cambios al repositorio (push)
+
+Fecha: 2026-04-08
+Responsable: Esteban
+
+Notas:
+- Este archivo valida el flujo básico de trabajo con Git
+- Próximo paso: implementar scripts de automatización (Python)
